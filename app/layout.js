@@ -28,7 +28,10 @@ export const metadata = {
   ],
   authors: [{ name: "Mariem Moula" }],
   icons: {
-    icon: "/proImage.png",
+    icon: [
+      { url: "/proImage.png" },
+      { url: "/proImage.png", sizes: "32x32", type: "image/png" },
+    ],
     shortcut: "/proImage.png",
     apple: "/proImage.png",
   },
