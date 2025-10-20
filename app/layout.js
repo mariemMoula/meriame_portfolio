@@ -27,11 +27,17 @@ export const metadata = {
     "Portfolio",
   ],
   authors: [{ name: "Mariem Moula" }],
+  icons: {
+    icon: "/proImage.png",
+    shortcut: "/proImage.png",
+    apple: "/proImage.png",
+  },
   openGraph: {
     title: "Mariem Moula | Software Engineer Portfolio",
     description:
       "Software Engineer passionate about building scalable solutions and efficient systems.",
     type: "website",
+    images: ["/proImage.png"],
   },
 };
 
