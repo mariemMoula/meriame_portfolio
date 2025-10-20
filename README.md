@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mariem Moula - Portfolio Website 💖
 
-## Getting Started
+A modern, animated personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. Features a beautiful girly color scheme with pink and purple gradients, smooth animations, and a fully responsive design.
 
-First, run the development server:
+## ✨ Features
+
+- **Modern Design**: Beautiful gradient colors with pink, purple, and rose tones
+- **Smooth Animations**: Framer Motion animations throughout for engaging user experience
+- **Fully Responsive**: Optimized for all device sizes
+- **Interactive Components**: Built with shadcn/ui components
+- **Resume Download**: Visitors can download your resume (PDF)
+- **Contact Form**: Integrated contact form for inquiries
+- **SEO Optimized**: Proper meta tags and semantic HTML
+
+## 📋 Sections
+
+1. **Hero Section**: Eye-catching introduction with animated background and profile image
+2. **Skills**: Comprehensive display of technical skills organized by category
+3. **Experience**: Timeline view of work experience
+4. **Projects**: Showcase of featured projects with descriptions
+5. **Education**: Academic background and relevant coursework
+6. **Contact**: Interactive contact form and contact information
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15.5.6**: React framework for production
+- **React 19**: JavaScript library for building user interfaces
+- **Tailwind CSS 4**: Utility-first CSS framework
+- **Framer Motion**: Animation library for React
+- **Lucide React**: Beautiful icon library
+- **shadcn/ui**: High-quality UI components
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Update your personal information in these files:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `components/HeroSection.jsx`: Name, title, introduction, social links
+- `components/SkillsSection.jsx`: Skills and languages
+- `components/ExperienceSection.jsx`: Work experience
+- `components/ProjectsSection.jsx`: Projects
+- `components/EducationSection.jsx`: Education details
+- `components/ContactSection.jsx`: Contact information
 
-## Deploy on Vercel
+### Images
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Replace files in the `public` folder:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `proImage.png`: Your profile picture
+- `MoulaMariem.pdf`: Your resume
+
+
+## 👤 Author
+
+**Mariem Moula**
+
+- Email: moula.meriame@gmail.com
+- Location: Tunis, Tunisia
+-  Software engineer
+
+---
+
+Made with 💖 using Next.js and Tailwind CSS
